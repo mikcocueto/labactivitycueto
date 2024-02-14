@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 20px 0px ;
+}
+.navbar ul li{
+	font-family: century;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 25px;
+	transition: all .5s ease;
+}
+.navbar ul li a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 10px white;
+}
+#home{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 840px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+#home::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url('homepage.jpg') no-repeat center center/cover;
+	height: 900px;
+	width: 100%;
+	z-index: -1;
+	opacity: .8;
+}
+.main{
+	/*border: 1px solid white;*/
+	position: absolute;
+	top: 35%;
+	right: 10%;
+}
+.headings{
+	font-family: times new roman;
+	margin: left;
+}
+.name{
+	font-size: 3.5rem;
+}
+
+.image{
+	display:flex;
+	justify-content: space-evenly;
+}
+
+/*About Section*/
+#skills{
+	display: flex;
+	flex-direction: column;
+	background: url('eee.jpeg') no-repeat center center/cover;
+}
+#pic{
+	display: flex;
+}
+#pic img{
+	width: 575px;
+	height: 580px;
+	border: 3px solid black;
+}
+#intro{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 10px;
+}
+#intro h2{
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+#intro p{
+	font-size: 2rem;
+}
+/*Portfolio Section*/
+#portfolio {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+	align-items: center;
+	padding: 20px;
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+.gallery img{
+	width: 360px;
+	height: 400px;
+	margin: 10px;
+}
+
+
+/* SKILLS */
+.headerrr{
+	font-size: 3.5rem;
+}
+#skills{
+	padding-top: 100px;
+	height: 150vh;
+}
+.container {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+	font-size: 1.5em;
+  }
+  .pic{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+  }
+  #html{
+	background-image: url("https://codescracker.com/html/images/html5.jpg");
+  }
+  #css{
+	background-image: url("https://cdn.freebiesupply.com/logos/large/2x/css-3-logo-png-transparent.png");
+  }
+  #js{
+	background-image: url("https://w1.pngwing.com/pngs/136/126/png-transparent-javascript-logo-angularjs-nodejs-computer-programming-web-development-computer-software-jquery-yellow.png");
+  }
+  #java{
+	background-image: url("https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png");
+  }
+  #python{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png");
+  }
+  #csharp{
+	background-image: url("https://i.pinimg.com/originals/e8/46/0f/e8460f0d8b9df01e9460bfd1ade0e8c8.png");
+  }
+  #php{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png");
+	display: inline-block;
+	height: 30px;
+	width: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+  }
+  
+  .skill-level {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+	font-size: 1.5em;
+  }
+  
+  .skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .skill-progress {
+    background-color: #333;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+
+  /* CONTACT US */
+  #contactus{
+	padding-top: 80px;
+  }
+#portfolio{
+	height: 100vh;
+}
+.gallery{
+	margin-top: 100px;
+	width:100%;
+}
+.gallery ul{
+	width:100%;
+	display: flex;
+	justify-content: space-evenly;	
+}
+.gallery ul li{
+	list-style-type: none;
+}
+.gallery ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+	padding-top: 14px;
+}
+.gallery ul li a:hover{
+	text-decoration: underline;
+}
+
+#facebook{
+	width: 30px;
+	height: 30px;
+}
+.socials{
+	display: flex;
+	justify-content: center;
+}
+
+.galleryy{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.proj{
+	transition: all 0.3s ease-in-out;
+}
+.proj:hover{
+	scale: 1.3;
+	box-shadow: 8px 8px 10px gray;
+}
